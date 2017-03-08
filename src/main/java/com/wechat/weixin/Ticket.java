@@ -2,10 +2,10 @@ package com.wechat.weixin;
 
 public class Ticket {
 	
-	private String appId;//: '<?php echo $signPackage["appId"];?>',
-    private String timestamp;//: <?php echo $signPackage["timestamp"];?>,
-    private String nonceStr;//: '<?php echo $signPackage["nonceStr"];?>',
-    private String signature;//: '<?php echo $signPackage["signature"];?>',
+	private String appId;//
+    private String timestamp;//
+    private String nonceStr;//
+    private String signature;//
     
     public Ticket(){
     	
